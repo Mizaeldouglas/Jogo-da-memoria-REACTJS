@@ -1,24 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import * as C from './App.styles'
+import logo from './assets/devmemory_logo.png'
+import { Buttom } from './components/Button';
+import  InfoItem  from './components/infoItem'
+
+import RestartIcon from './svgs/restart.svg'
 
 function App() {
+
+	const resetAndCreateGrid = () => {
+	  
+	}
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+		<C.Container>
+			<C.Info>
+				<C.LogoLink href=''>
+					<img src={logo} width='200' alt="" />
+				</C.LogoLink>
+				<C.InfoArea>
+					<InfoItem label='Tempo' value='00:00'/>
+					<InfoItem label='Movimentos' value='0'/>
+				</C.InfoArea>
+
+				<Buttom icon={RestartIcon} onClick={resetAndCreateGrid} label='Reiniciar'/>
+			</C.Info>
+			<C.GridArea>
+				
+			</C.GridArea>
+		</C.Container>
     </div>
   );
 }
