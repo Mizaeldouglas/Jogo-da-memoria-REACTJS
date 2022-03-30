@@ -11,11 +11,11 @@ type Props={
 export const Buttom = ({ label,icon,onClick }:Props) => {
   return(
 	  <C.Container onClick={onClick}>
-			{icon &&
+			{/* {icon &&
 				<C.IconArea>
-					{/* <C.Icon src={ icon } /> */}
+					<C.Icon src={ icon } />
 				</C.IconArea>
-			}
+			} */}
 		  <C.Label>{ label }</C.Label>
 	  </C.Container>
   )
