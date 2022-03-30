@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 type containerProps ={
-	showBackGround:boolean
+	showBackGround:boolean;
+	showColor:boolean;
 }
 
 export const Container = styled.div<containerProps>`
-	background-color:  ${props => props.showBackGround ? '#1550ff' : '#e2e3e3'};
+	background-color:  ${props => props.showBackGround ? 'yellow' : '#e2e3e3'};
+	
 	height: 100px;
 	border-radius: 20px;
 	display: flex;

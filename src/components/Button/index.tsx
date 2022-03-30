@@ -13,7 +13,7 @@ export const Buttom = ({ label,icon,onClick }:Props) => {
 	  <C.Container onClick={onClick}>
 			{icon &&
 				<C.IconArea>
-					<C.Icon src={ icon }/>
+					{/* <C.Icon src={ icon } /> */}
 				</C.IconArea>
 			}
 		  <C.Label>{ label }</C.Label>

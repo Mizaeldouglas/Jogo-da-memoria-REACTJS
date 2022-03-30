@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 200px;
   height: 50px;
   display: flex;
-  background-color: #1550ff;
+  background-color: yellow;
   border-radius: 10px;
   cursor: pointer;
   opacity: 1;
@@ -30,7 +30,7 @@ export const Icon = styled.img`
 
 export const Label = styled.div`
   height: inherit;
-  color: #fff;
+  color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
