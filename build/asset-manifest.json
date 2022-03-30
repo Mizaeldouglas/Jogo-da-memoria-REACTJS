@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/static/js/main.df0783ed.js",
+    "static/media/império.svg": "/static/media/império.406bbc8bb6cced7c8662255bb81abfce.svg",
+    "static/media/darthVader.svg": "/static/media/darthVader.ed8c9aa395e9fa97c554d8e0633f1aa1.svg",
+    "static/media/baby-yoda.svg": "/static/media/baby-yoda.8287ead9cd36ebb23b6fb99c5c47f968.svg",
+    "static/media/stormtrooper.svg": "/static/media/stormtrooper.9ed50817a9ab498c32c6cb6f03216296.svg",
+    "static/media/r2-d2.svg": "/static/media/r2-d2.33ef3ee8557d6b58a0b7cd931656712e.svg",
+    "static/media/c-3po.svg": "/static/media/c-3po.88d0ec767528bcb549132d8807afa5db.svg",
+    "static/media/starwars.svg": "/static/media/starwars.e2b1c912158f2924b05f5e7e888c2c88.svg",
+    "static/media/rebelde.svg": "/static/media/rebelde.557b84201df590daaee21e3d9277e0fc.svg",
+    "static/media/sabreDeLuz.svg": "/static/media/sabreDeLuz.d1ca4dddd0a41f0517d5764d5b89a503.svg",
+    "index.html": "/index.html",
+    "static/media/restart.svg": "/static/media/restart.0348647a7dae743f139d281193d1d372.svg",
+    "main.df0783ed.js.map": "/static/js/main.df0783ed.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.df0783ed.js"
+  ]
+}
