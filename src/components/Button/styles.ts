@@ -21,7 +21,7 @@ export const IconArea = styled.div`
   justify-content: center;
   align-items: center;
   border-right: 1px solid rgba(255,255,255, .2);
-  padding: 0 15px;
+  padding: 0 16px;
 `;
 
 export const Icon = styled.img`
